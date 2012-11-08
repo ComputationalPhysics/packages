@@ -1,0 +1,10 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ComputationalPhysicsMetaPackage
+Upstream-Contact: Computational Physics, <no-reply@computationalphysics.net>
+
+Files: *
+Copyright: 2012, Computational Physics, <no-reply@computationalphysics.net>
+License: GPL-2+
+ Full text of licence.
+ .
+ Unless there is a it can be found in /usr/share/common-licenses

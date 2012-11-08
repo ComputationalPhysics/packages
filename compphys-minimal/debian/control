@@ -1,0 +1,13 @@
+Source: comp-phys-minimal
+Section: science
+Priority: optional
+Maintainer: Computational Physics, <no-reply@computationalphysics.net>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.2
+
+Package: comp-phys-minimal
+Architecture: all
+Section: science
+Depends: freeglut3, libarmadillo-dev, libblas-dev, liblapack-dev, libboost-dev, libatlas-dev, texlive-full, ipython-notebook, python-psutil, ${misc:Depends}
+Description: Contains the most important packages used by the Computational Physics group.
+ This package will install all packages regarded as essential when studying Computational Physics.

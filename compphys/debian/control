@@ -1,0 +1,13 @@
+Source: comp-phys
+Section: science
+Priority: optional
+Maintainer: Computational Physics, <no-reply@computationalphysics.net>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.2
+
+Package: comp-phys
+Architecture: all
+Section: science
+Depends: comp-phys, vlc, spyder, texlive-full, compizconfig-settings-manager, synaptic, emacs23, nautilus-open-terminal, openssh-server, filezilla, kile, qtcreator, netbeans, texmaker, vim, ${misc:Depends}
+Description: Contains all suggested packages for the Computational Physics group.
+ This package will install all suggested packages when studying Computational Physics.
